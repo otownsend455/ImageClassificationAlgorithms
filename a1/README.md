@@ -2,8 +2,8 @@ This is the README for A1.
 
 Code developed by Olivia Townsend:
 
-   In classifier.c: lines 81 - 110
-   In knn.c: lines 39 - 220
+   - In classifier.c: lines 81 - 110
+   - In knn.c: lines 39 - 220
 
 How to run program: 
 
