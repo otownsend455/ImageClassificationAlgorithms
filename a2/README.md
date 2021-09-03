@@ -8,7 +8,8 @@ Code developed by Olivia Townsend:
 How to run program (in terminal):
 1. Unzip dataset: unzip datasets.zip
 2. Compilation command: make
-3. You’re ready to go.
+
+You’re ready to go.
 
 To run a quick test with 1k training and 1k testing images: 
 ./classifier datasets/training_1000.bin datasets/testing_1000.bin
