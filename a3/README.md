@@ -13,7 +13,7 @@ How to run program (in terminal):
 To run a quick test with 1k training and 1k testing images, with 3 nearest neighbours, 8 processes, and using the euclidean distance function: 
 ./classifier -K 3 -d eucl -p 8 -v datasets/training_1000.bin datasets/testing_1000.bin
 
-To run a full evaluation with all training and testing images, with 3 nearest neighbours, and using the euclidean distance function (may take awhile): 
+To run a full evaluation with all training and testing images, with 3 nearest neighbours, and using the euclidean distance function (Will take awhile): 
 ./classifier -K 3 -d eucl -p 8 -v datasets/training_data.bin datasets/testing_data.bin
 
 Expected output will be the number of correct predictions. 
