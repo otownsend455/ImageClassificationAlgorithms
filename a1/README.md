@@ -17,5 +17,5 @@ How to run program (in terminal):
    
    Expected output will be the number of correct predictions. 
   
-   Play around with the number of nearest neighbours if you wish. Enjoy!
+   Please view the datasets file for all the different testing and training image set sizes allowed. You may also adjust the number of nearest neighbours. Enjoy!
  
