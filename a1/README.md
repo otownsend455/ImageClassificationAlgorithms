@@ -5,7 +5,7 @@ Code developed by Olivia Townsend:
    - In classifier.c: lines 81 - 110
    - In knn.c: lines 39 - 220
 
-How to run program: 
+How to run program (in terminal): 
 
    1. Compilation command: gcc -Wall -std=c99 -lm -o classifier classifier.c knn.c
    2. Decompress dataset into individual images: tar xvzf datasets.tgz
