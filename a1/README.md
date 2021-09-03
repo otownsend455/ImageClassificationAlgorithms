@@ -1,4 +1,4 @@
-This is the README for A1.
+This is the README for a1.
 
 Code developed by Olivia Townsend:
 
@@ -11,9 +11,11 @@ How to run program (in terminal):
    2. Decompress dataset into individual images: tar xvzf datasets.tgz
    3. You’re ready to go. 
 
-   To run a quick test with 1k training and 1k testing images, K = 1: ./classifier 1 lists training_1k.txt lists/testing_1k.txt
+   To run a quick test with 1k training and 1k testing images, with 2 nearest neighbours: ./classifier 2 lists training_1k.txt lists/testing_1k.txt
 
-   To run a full evaluation with all images, K = 7 (Will take a while): ./classifier 7 lists/training_full.txt lists/testing_full.txt
-
-   Play around with the value of K if you wish. Enjoy!
+   To run a full evaluation with all images, with 7 nearest neighbours (Will take a while): ./classifier 7 lists/training_full.txt lists/testing_full.txt
+   
+   Expected output will be the number of correct predictions. 
+  
+   Play around with the number of nearest neighbours if you wish. Enjoy!
  
